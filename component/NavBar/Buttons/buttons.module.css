@@ -1,0 +1,28 @@
+.buttons {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons > button {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: white;
+}
+
+.buttons > button:hover {
+    opacity: 0.8;
+}
+
+.signIn {
+    border: none;
+}
+
+.signUp {
+    color: var(--pink);
+    width: 120px;
+    height: 40px;
+    border: 1px solid var(--pink);
+    border-radius: 23px;
+}

@@ -1,0 +1,18 @@
+.logo {
+    display: flex;
+    cursor: pointer;
+}
+
+.logo:hover {
+    opacity: 0.8;
+}
+
+.logo > h1 {
+    font-weight: 300, Medium;
+    font-size: 25px;
+    margin-left: 5px;
+}
+.logo > h1 > span {
+    font-weight: 700;
+    font-size: 30px;
+}
