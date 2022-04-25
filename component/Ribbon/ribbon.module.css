@@ -1,0 +1,39 @@
+.ribbon {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+}
+
+.text > h3 {
+    color: var(--black);
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0;
+}
+
+.text > h4 {
+    margin: 0;
+    color: var(--gray);
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.circle {
+    background-color: var(--pinkLight);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: center;
+}

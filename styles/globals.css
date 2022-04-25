@@ -16,5 +16,9 @@ a {
 
 :root {
   --gray: #4F5665;
-  --pink: #F53855;
+  --pink: #F53855; 
+  --pinkLight: #FFECEC;
+  --cupper: #F53838;
+  --black: #0B132A;
+  --white: #EEEFF2;
 }
