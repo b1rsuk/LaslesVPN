@@ -20,9 +20,6 @@
 }
 
 .signUp {
-    color: var(--pink);
     width: 120px;
     height: 40px;
-    border: 1px solid var(--pink);
-    border-radius: 23px;
 }

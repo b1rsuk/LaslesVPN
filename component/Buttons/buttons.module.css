@@ -12,3 +12,15 @@
     background-color: var(--cupper);
     border: 1px solid var(--cupper);
 }
+
+.buttonOutline {
+    color: var(--pink);
+    border: 1px solid var(--pink);
+    background-color: white;
+}
+
+.buttonOutline:hover {
+    background-color: var(--pink);
+    color: white;
+    transition: background-color 0.2s;
+}

@@ -1,0 +1,11 @@
+.title > h3 {
+    margin: 0;
+    color: var(--black);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}

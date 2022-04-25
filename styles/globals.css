@@ -21,4 +21,12 @@ a {
   --cupper: #F53838;
   --black: #0B132A;
   --white: #EEEFF2;
+  --green: #2FAB73;
+  --ivory: #DDDDDD;
+}
+
+.miniText {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--gray);
 }

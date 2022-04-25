@@ -1,5 +1,6 @@
 .text {
     width: 800px;
+    color: var(--black);
 }
 
 .text > h2 {
@@ -12,15 +13,12 @@
     font-weight: 700;
 }
 
-.text > h5 {
-    font-size: 15px;
-    font-weight: 600;
-    color: var(--gray);
-    height: 60px;
-    margin-top: 15px;
-}
-
 .button {
     width: 200px;
     height: 60px;
+}
+
+.title {
+    height: 60px;
+    margin-top: 15px;
 }

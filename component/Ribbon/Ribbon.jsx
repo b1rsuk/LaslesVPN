@@ -11,7 +11,7 @@ const Ribbon = () => {
         <div className={style.ribbon}>
             {
                 cards.map((item, index) => (
-                    <div className={style.card}>
+                    <div className={style.card} key={index}>
                         <div className={style.container} style={{
                             borderRight: cards.length - 1 == index? 'none' : '2px solid var(--white)' 
                         }}>
