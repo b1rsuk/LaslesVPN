@@ -25,8 +25,8 @@ const Plan = () => {
             <Title />
             <div className={style.container}>
                 {
-                    card.map(card => (
-                        <Card title={card.title} price={card.title} menu={card.menu}/>
+                    card.map((card, index) => (
+                        <Card key={index} title={card.title} price={card.title} menu={card.menu}/>
                     ))
                 }
             </div>

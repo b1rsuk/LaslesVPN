@@ -1,0 +1,5 @@
+.card {
+    width: 400px;
+    border: 2px solid var(--ivory);
+    border-radius: 5px;
+}
