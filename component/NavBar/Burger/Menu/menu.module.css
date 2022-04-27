@@ -2,7 +2,6 @@
     position: fixed;
     border-right: 1px solid var(--gray);
     background-color: white;
-    width: 200px;
     height: 100%;
     z-index: 1;
     padding: 15px;

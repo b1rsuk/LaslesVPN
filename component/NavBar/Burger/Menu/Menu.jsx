@@ -2,8 +2,14 @@ import style from './menu.module.css';
 import Image from 'next/image';
 
 const Menu = ({ visible, setVisible }) => {
+    const visibleMenu = { 
+        opacity: visible? '1' : '0',
+        transition: 'opacity 0.4s',
+        pointerEvents: visible? 'auto' : 'none'
+    }
+
     return (
-        <div className={style.menu} style={{display: visible? 'block' : 'none'}}>
+        <div className={style.menu} style={visibleMenu}>
             <div className={style.close} onClick={() => setVisible(false)}>
               <Image src='/svg/close.svg' width='25px' height='25px'/>
             </div>
