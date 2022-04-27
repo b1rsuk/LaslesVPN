@@ -1,5 +1,4 @@
 .advantages {
-    height: 500px;
     padding: 70px;
     margin-bottom: 100px;
 }
@@ -7,4 +6,10 @@
 .container {
     display: flex;
     justify-content: space-between;
+}
+
+@media (max-width: 897px) {
+    .container {
+        flex-direction: column;
+    }
 }

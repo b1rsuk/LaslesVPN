@@ -11,6 +11,8 @@
 .buttonPrimary {
     background-color: var(--cupper);
     border: 1px solid var(--cupper);
+    box-shadow: 0 0 10px rgba(0,0,0,3); /* Параметры тени */
+    padding: 10px;
 }
 
 .buttonOutline {
@@ -23,4 +25,5 @@
     background-color: var(--pink);
     color: white;
     transition: background-color 0.2s;
+    --arrow: white;
 }

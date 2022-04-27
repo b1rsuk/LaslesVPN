@@ -3,7 +3,7 @@
     color: var(--black);
 }
 
-.text > h2 {
+.text > h3 {
     font-weight: 500;
     font-size: 60px;
     margin-bottom: 1px;
@@ -21,4 +21,31 @@
 .title {
     height: 60px;
     margin-top: 15px;
+}
+
+@media (max-width: 952px) {
+    .text {
+        text-align: center;
+        margin-bottom: 50px;
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 711px) {
+    .text {
+        text-align: center;
+        margin-bottom: 50px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 421px) {
+    .text {
+        text-align: center;
+        margin-bottom: 50px;
+        width: 300px;
+    }
 }

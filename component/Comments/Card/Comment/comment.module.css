@@ -1,0 +1,4 @@
+.comment > h3 {
+    color: var(--black);
+    font-weight: 400;
+}

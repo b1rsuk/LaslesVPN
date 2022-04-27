@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.human {
+    margin-left: 10px;
+}
+
+.human > h3 {
+    margin: 0;
+    color: var(--black);
+}
+
+.human > h5 {
+    margin: 0;
+}
+
+.grade {
+    height: 70px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.grade > h4 {
+    margin-right: 5px;
+    color: var(--black);
+}

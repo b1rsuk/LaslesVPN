@@ -1,5 +1,4 @@
 .ribbon {
-    height: 300px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -36,4 +35,33 @@
     margin-right: 15px;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 1203px) {
+    .container {
+        width: 200px;
+        border: none !important;
+    }
+}
+
+@media (max-width: 622px) {
+    .container {
+        width: 150px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .circle {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 470px) {
+    .ribbon {
+        flex-direction: column;
+    }
 }

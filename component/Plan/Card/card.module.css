@@ -9,3 +9,11 @@
     justify-content: space-between;
     padding: 20px;
 }
+
+@media (max-width: 1071px) {
+    .card {
+        width: 280px;
+        margin-bottom: 10px;
+    }
+}
+

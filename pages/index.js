@@ -6,6 +6,8 @@ import Advantages from '../component/Advantages/Advantages';
 import Plan from "../component/Plan/Plan";
 import Countries from "../component/Countiez/Countries";
 import Comments from "../component/Comments/Comments";
+import Subscribe from "../component/Subscribe/Subscribe";
+import Footer from "../component/Footer/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
       <Plan/>
       <Countries/>
       <Comments/>
+      <Subscribe/>
+      <Footer/>
     </Fragment>
   )
 }

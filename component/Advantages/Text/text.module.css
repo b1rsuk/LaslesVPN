@@ -1,6 +1,5 @@
 .text {
     width: 600px;
-    height: 400px;
 }
 
 .text > h3 {
@@ -13,4 +12,18 @@
 .text > h5 {
     font-weight: 400;
     font-size: 17px;
+}
+
+@media (max-width: 897px) {
+    .text {
+        width: auto;
+    }
+
+    .text > h3 {
+        text-align: center;
+    }
+    
+    .text > h5 {
+        text-align: center;
+    }
 }

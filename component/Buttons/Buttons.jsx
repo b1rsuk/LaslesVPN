@@ -1,7 +1,7 @@
 import style from './buttons.module.css';
 
 const Button = props => {
-    const { type, radius, fontSize, color, fontWeight, ...text } = props;
+    const { type, radius, fontSize, color, fontWeight, onClick, ...text } = props;
 
     const styleButton = {
         borderRadius: radius,
@@ -12,12 +12,12 @@ const Button = props => {
 
     if (type == 'primary')
     return (
-        <button style={styleButton} className={style.buttonPrimary + ' ' + style.button}>{text.children}</button>
+        <button style={styleButton} className={style.buttonPrimary + ' ' + style.button} onClick={onClick}>{text.children}</button>
     );
 
     if (type == 'outline') 
     return (
-        <button style={styleButton} className={style.buttonOutline + ' ' + style.button}>{text.children}</button>
+        <button style={styleButton} className={style.buttonOutline + ' ' + style.button} onClick={onClick}>{text.children}</button>
     );
 }
 

@@ -1,0 +1,11 @@
+@media (max-width: 890px) {
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts > h5 {
+        text-align: center;
+    }
+}
