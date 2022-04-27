@@ -61,7 +61,11 @@
 }
 
 @media (max-width: 470px) {
-    .ribbon {
-        flex-direction: column;
+    .circle {
+        width: 50px;
+        height: 50px;
+    }
+    .container {
+        width: auto;
     }
 }

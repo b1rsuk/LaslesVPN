@@ -14,9 +14,3 @@
         flex-direction: column;
     }
 }
-
-@media (max-width: 424px) {
-    .navbar {
-        height: 400px;
-    }
-}

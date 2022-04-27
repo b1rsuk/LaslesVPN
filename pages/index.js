@@ -11,7 +11,7 @@ import Footer from "../component/Footer/Footer";
 
 export default function Home() {
   return (
-    <Fragment>
+    <div>
       <NavBar/>
       <Submission/>      
       <Ribbon/>
@@ -21,6 +21,6 @@ export default function Home() {
       <Comments/>
       <Subscribe/>
       <Footer/>
-    </Fragment>
+    </div>
   )
 }

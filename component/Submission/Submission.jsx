@@ -1,13 +1,13 @@
 import style from './submission.module.css';
 import Text from './Text/Text';
-import Illustration from './Illustration/Illustration';
+import Eazy from './Eazy/Eazy';
 
 const Submission = () => {
     return (
         <div className={style.submission}>
             <div className={style.container}>
                 <Text />
-                <Illustration/>
+                <Eazy />
             </div>
         </div>
     );
