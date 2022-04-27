@@ -4,14 +4,14 @@ import Submission from "../component/Submission/Submission";
 import Ribbon from "../component/Ribbon/Ribbon";
 import Advantages from '../component/Advantages/Advantages';
 import Plan from "../component/Plan/Plan";
-import Countries from "../component/Countiez/Countries";
+import Countries from "../component/Counties/Countries";
 import Comments from "../component/Comments/Comments";
 import Subscribe from "../component/Subscribe/Subscribe";
 import Footer from "../component/Footer/Footer";
 
 export default function Home() {
   return (
-    <div>
+    <Fragment >
       <NavBar/>
       <Submission/>      
       <Ribbon/>
@@ -21,6 +21,6 @@ export default function Home() {
       <Comments/>
       <Subscribe/>
       <Footer/>
-    </div>
+    </Fragment >
   )
 }

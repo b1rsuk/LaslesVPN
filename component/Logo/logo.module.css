@@ -16,3 +16,9 @@
     font-weight: 700;
     font-size: 30px;
 }
+
+@media (max-width: 424px) {
+    .logo {
+        margin-bottom: 20px;
+    }
+}
